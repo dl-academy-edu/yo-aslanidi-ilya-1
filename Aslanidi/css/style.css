@@ -1,0 +1,484 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1920px;
+}
+.container {
+    margin: 0 166px;
+}
+  .header {
+    margin-bottom: 145px;
+  }
+ul {
+    list-style: none;
+    margin: 0; 
+    padding-left: 0; }
+    a{
+        position: relative;
+        color: #ffffff;
+        cursor: pointer;
+        line-height: 1;
+        text-decoration: none;
+       }
+       a:hover {
+        text-decoration: underline;
+        }
+
+
+    .header__list-item{
+        margin-right: 10px;
+    }
+    .header-list {
+        align-items: center;
+        display: flex;
+        margin-top: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+    
+    
+
+    .header_list-right {
+        margin-top: -37px;
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+    .header_list-link {
+        color: rgb(0, 0, 0);
+    }
+    .monster-banner {
+        background-color:  rgba(238, 228, 219, 1);
+        padding-top: 1px;
+    }
+    .menu {
+        padding-left: 28px;
+    }
+    .btn_one {
+        background-color: rgba(0, 0, 0, 1);
+        color: #ffffff;
+        padding: 12px 9px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 90px;
+        margin-left: 50px;
+    }
+    h1 {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 89px;
+        margin-left: 50px;
+    }
+    .number-one {
+        color: rgba(30, 6, 6, 0.05);
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 60px;
+    }
+    .menu-title {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: -35px;
+    }
+    .banner_title_text {
+        width: 350px;
+    }
+    
+    .banner {
+        margin-left: 80px;
+        margin-top: -92px;
+    }
+    .alien_img {
+        width: 726px;
+        height: 549px;
+        position: absolute;
+        margin-left: 705px;
+        margin-top: -212px;
+    }
+
+    .foot-banner {
+        background-color: rgba(194, 153, 116, 1);
+        
+    }
+    .banner-text {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 12px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+    }
+    
+
+    .products-title {
+        margin-top: 90px;
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .design-text {
+        font-family: 'Crimson Text';
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    /* Карточки продукции */
+    .category {
+        font-family: 'Montserrat';
+        color: #1E0606;
+        margin-bottom: 30px;
+    }
+    .products {
+        font-size: 29px;
+        text-align: center;
+       }
+       .cards_title_br {
+        width: 129px;
+       }
+       .products_cards {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+        }
+       
+       .cards_title_br-one {
+        background-image: url(/img/kids.png);
+        background-repeat: no-repeat;
+        padding: 120px 35px;
+        width: 270px;
+        color: rgb(255, 255, 255);
+       }
+       .cards_title_br-two{
+        background-image: url(/img/holyday.png);
+        background-repeat: no-repeat;
+        padding: 120px 55px;
+        width: 280px;
+        color: #fff;
+       }
+        .cards_title-three{
+        background-image: url(/img/toys.png);
+        background-repeat: no-repeat;
+        padding: 130px 45px;
+        width: 280px;
+        color: #fff;
+        }
+        .cards_title-four{
+        background-image: url(/img/acessories.png);
+        background-repeat: no-repeat;
+        padding: 130px 40px;
+        width: 280px;
+        color: #fff;
+        }
+    /* стрелки */
+    .vectors {
+        position: absolute;
+        margin-top: 1px;
+    }
+    .vector-left {
+        background-color: rgba(112, 187, 220, 0.2);
+        padding: 5px;
+    }
+    .vector-right {
+        background-color: rgba(112, 187, 220, 0.2);
+        padding: 5px;
+    }
+    .vectors-text {
+        width:570px;
+        font-size: 16px;
+        margin-left: 75px;
+        font-family: 'Open Sans';
+        word-spacing: 3px;
+        margin-bottom: 90px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    /* Женжина с текстом */
+    .delivery-name {
+        font-family: 'Montserrat';
+        margin-bottom: 6px;
+        padding-top: 50px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .del_var {
+        font-size: 26px;
+        font-family: 'Crimson Text';
+        margin-bottom: 11px;
+    }
+    .del_disc {
+        margin-top: 15px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        width: 1150px;
+    }
+    .del-btn {
+        margin-top: 26px;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Open Sans';
+        cursor: pointer;
+        margin-bottom: 242px;
+    }
+    .girl_img {
+        float: left;
+        padding-right: 90px;
+        width: 550px;
+        height: 602px;
+    }
+    .brands {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+
+    /* Контакты и карта */
+    .design_block {
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgba(225, 240, 247, 1);
+        height: 228px;
+        width: 543px;
+    }
+    
+    
+    .design_block-title {
+        margin-top:-25px ;
+        position: absolute;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        font-family: 'Montserrat';
+    }
+    .design_block-about {
+        padding-top: 30px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 34px;
+        font-family: 'Crimson Text';
+    }
+    .design_block-disc {
+        margin-bottom: 20px;
+        width: 483px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Open Sans';
+    }
+    
+    .design-button {
+        background-color: rgb(0, 0, 0);
+        padding: 9px 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .map_block {
+        background-color: rgba(225, 240, 247, 1);
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 209px;
+        width: 543px;
+    }
+    
+    .map_block-title {
+        margin-top:-25px ;
+        position: absolute;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        font-family: 'Montserrat';
+    }
+    
+    .map_block-disc {
+        width: 483px;
+        margin-top: 41px;
+        margin-bottom: 30px;
+        font-family: 'Open Sans';
+    }
+
+    /* ФУТЕР */
+    .footer {
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgba(67, 67, 67, 1);
+        margin-top: 150px;
+        font-family: 'Open Sans';
+        font-size: 16px;
+    }
+    .footer-menu hr {
+        width: 380px;
+    }
+    .footer-names {
+        display: flex;
+        justify-content: space-between;
+    }
+    .connect-text {
+        color: rgba(170, 170, 170, 1);
+    }
+    .footer-menu {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 28px;
+        color: #ffffff;
+        line-height: 35px;
+    }
+    
+    * {box-sizing: border-box;}
+    form {
+      position: relative;
+      width: 380px;
+      margin: 0 auto;
+    }
+    
+    input {
+      width: 100%;
+      height: 42px;
+      padding-left: 10px;
+      background: rgba(102, 102, 102, 1);
+      color: #f8f8f8;
+    }
+    .footer-btn {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      position: absolute; 
+      top: 0;
+      right: 0px;
+      width: 81px;
+      height: 42px;
+      border: none;
+      background: #000000;
+      cursor: pointer;
+      color: #ffffff;
+    }
+    .footer-btn:before {
+      font-size: 16px;
+      color: #F9F0DA;
+    }
+    span {
+        color: rgba(170, 170, 170, 1);
+    }
+    .footer-pic {
+        margin-top: 25px;
+        word-spacing: 10px;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 23px;
+        padding-bottom: 40px;
+    }
+    .rating {
+        float: left;
+    }
+    
+    .rating_text {
+        color: #ffffff;
+        padding-right: 5px;
+    }
+    
+    .stars-img {
+        padding-left: 5px;
+    }
+    .copyright {
+        color: #ffffff;
+    }
+    
+    .editor-name {
+        color: rgba(162, 162, 162, 1);
+    }
+    
+    hr {
+        border: none;
+        color: rgba(102, 102, 102, 1);
+        background-color: rgba(102, 102, 102, 1);
+        height: 2px;
+       }
+    
+       ::placeholder {
+        color: rgba(235, 235, 235, 1);
+        font-size: 16px
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 780px) {
+        .container {
+            margin: auto 10px;
+        }
+    }
+    @media (max-width: 494px) {
+        .header__list2 {
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    }
+    @media (max-width: 1810px) {
+        .alien_img {
+            margin-left: 655px;
+        }
+    }
+    @media (max-width: 1705px) {
+        .alien_img {
+            margin-left: 555px;
+        }
+    }
+    @media (max-width: 1605px) {
+        .alien_img {
+            margin-left: 355px;
+        }
+    }
+    @media (max-width: 1405px) {
+        .alien_img {
+            margin-left: 255px;
+        }
+    }
+   
+    @media (max-width: 1304px) {
+        .alien_img {
+            display: none;
+        }
+    }
