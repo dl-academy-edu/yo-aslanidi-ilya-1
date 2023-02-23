@@ -1,0 +1,86 @@
+.blog-title {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;}
+.page {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 50px;
+   }
+   .pages{
+    display: flex;
+    margin-right: 20px;
+   }
+   .catalog {
+    color: rgba(30, 6, 6, 1);
+   }
+   .home a {
+    color: #000000;
+    margin-right: 20px;
+   }
+   .arrow {
+    margin-right: 20px;
+   }
+   /* Карты */
+   .cards_up {
+    display: flex;
+    justify-content: space-between;
+   }
+   .cards_down {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+   }
+
+   .cards_blog-title {
+    width: 380px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 15px;
+   }
+   .cards_blog-date {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(129, 129, 129, 1);
+    margin-top: 20px;
+    margin-bottom: 7px;
+   }
+   .cards_blog-disc {
+    width: 380px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+   }
+
+   /* номера страниц */
+   .numerals {
+    display: flex;
+    justify-content: center;
+   }
+   .numerals_item a {
+    color: #000000;
+    margin-right: 67px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+   }
+   .numerals_arrows {
+    padding-left: 610px;
+    padding-right: 630px;
+   }
+  
+  

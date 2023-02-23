@@ -1,0 +1,217 @@
+.home a {
+    color: #000;
+}
+
+.blog-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pages{
+    display: flex;
+    gap: 20px;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.catalog {
+    color: rgb(87, 87, 87);
+}
+/* radio button */
+.rad-label {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 12px 5px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .rad-label:hover,
+  .rad-label:focus-within {
+    background: hsla(244, 78%, 55%, 0.14);
+  }
+  
+  .rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .rad-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+  
+    background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+    position: relative;
+  }
+  
+  .rad-design::before {
+    content: '';
+  
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: hsl(0, 0%, 66%);
+    transform: scale(1.1);
+    transition: .3s;
+  }
+  
+  .rad-input:checked+.rad-design::before {
+    transform: scale(0);
+  }
+  
+  .rad-text {
+    color: hsl(223, 9%, 32%);
+    margin-left: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 900;
+  
+    transition: .3s;
+  }
+  
+  .rad-input:checked~.rad-text {
+    color: hsl(0, 0%, 1%);
+  }
+  /* radio end */
+
+  .form__inner-wr input {
+    height: 42px;
+    padding-left: 10px;
+  }
+
+
+  .form__wrapper {
+    width: 980px;
+    background: rgba(229, 234, 248, 1);
+    padding: 40px;
+  }
+
+.form__inner-wr {
+    display: flex;
+}
+  .form__inner-wr ::placeholder {
+    color: #000;
+  }
+.form__inner {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.phone_email {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form__label {
+    margin-bottom: 15px;
+}
+
+.form__input-email {
+    margin-top: 15px;
+}
+
+.form__inner-wr input[type="text"] {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid white;
+    width:850px ;
+    font-size: 18px;}
+
+
+    input[type="tel"] {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid white;
+    width:415px ;
+    font-size: 18px;}
+
+    input[type="email"] {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid white;
+    width:415px ;
+    font-size: 18px;}
+    
+    .form__message {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;  
+        }
+
+    textarea {
+        resize: none;
+        width: 850px;
+        height: 200px;
+        margin-top: 15px;
+    }
+
+    .contact_us-disc {
+        padding-left: 220px;
+        width: 652px;
+    }
+
+    .contact_us-disc-block-items {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .contact_us-disc-block-items-two {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .contact_us-disc-block-end {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: rgba(194, 153, 116, 1);
+    }
+
+    .contact_us-btn {
+        background: #000;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 22px;
+    }
+
+    .radio__label {
+        margin-bottom: 35px;
+    }

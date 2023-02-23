@@ -1,0 +1,121 @@
+    .Category_Products-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    }
+   
+   .products {
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+   }
+   .products_cards {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    }
+   
+   .cards_title-one {
+    background-image: url(/img/kids.png);
+    background-repeat: no-repeat;
+    padding: 120px 35px;
+    width: 270px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+   }
+   .cards_title-two{
+    background-image: url(/img/holyday.png);
+    background-repeat: no-repeat;
+    padding: 120px 55px;
+    width: 270px;
+    color: #fff;
+    margin-right: 30px;
+   }
+    .cards_title-three{
+    background-image: url(/img/toys.png);
+    background-repeat: no-repeat;
+    padding: 130px 45px;
+    width: 270px;
+    color: #fff;
+    }
+    .cards_title-four{
+    background-image: url(/img/acessories.png);
+    background-repeat: no-repeat;
+    padding: 130px 40px;
+    width: 270px;
+    color: #fff;
+    margin-left: 200px;
+    }
+    .products_cards-two{
+    display: flex;
+    }
+    .cards_title-five{
+    background-image: url(/img/flamengo.png);
+    background-repeat: no-repeat;
+    padding: 130px 40px;
+    width: 270px;
+    color: #fff;
+    margin-left: 30px;
+    }
+
+    .cards_title-six{
+        background-image: url(/img/dress.png);
+        background-repeat: no-repeat;
+        padding: 110px 40px;
+        width: 270px;
+        color: #fff;
+        margin-left: 30px;
+    }
+
+   .container {
+    margin:0px 166px;
+   }
+   /* Выбор страницы */
+   .page {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 50px;
+   }
+   .pages{
+    display: flex;
+    margin-right: 20px;
+   }
+   .catalog {
+    color: rgba(30, 6, 6, 1);
+   }
+   .home a {
+    color: #000000;
+    margin-right: 20px;
+   }
+   .arrow {
+    margin-right: 20px;
+   }
+   /* product discription */
+   .product_discription_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    padding-left: 194px;
+   }
+   .product_discription-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 194px;
+   }
+   .product_discription_item {
+    margin-bottom: 15px;
+    width: 680px;
+   }
+   
