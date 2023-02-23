@@ -37,7 +37,6 @@ ul {
     }
     
     
-
     .header_list-right {
         margin-top: -37px;
         display: flex;
@@ -49,73 +48,86 @@ ul {
     .header_list-link {
         color: rgb(0, 0, 0);
     }
-    .monster-banner {
-        background-color:  rgba(238, 228, 219, 1);
-        padding-top: 1px;
+    
+    /* Баннер */
+
+    .banner {
+        position: relative;
+        background-color: rgba(238, 228, 219, 1);
+        height: 411px;
+        display: flex;
+        gap: 71px;
     }
-    .menu {
-        padding-left: 28px;
-    }
-    .btn_one {
-        background-color: rgba(0, 0, 0, 1);
-        color: #ffffff;
-        padding: 12px 9px;
-        font-weight: bold;
-        font-size: 16px;
-        margin-bottom: 90px;
-        margin-left: 50px;
-    }
-    h1 {
-        font-size: 40px;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 89px;
-        margin-left: 50px;
-    }
-    .number-one {
+        
+
+
+    .number_one {
+        padding-top: 17px;
         color: rgba(30, 6, 6, 0.05);
-        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 200;
         font-size: 60px;
-    }
-    .menu-title {
-        position: absolute;
-        margin-top: 12px;
-        margin-left: -35px;
-    }
-    .banner_title_text {
-        width: 350px;
-    }
-    
-    .banner {
-        margin-left: 80px;
-        margin-top: -92px;
-    }
-    .alien_img {
-        width: 726px;
-        height: 549px;
-        position: absolute;
-        margin-left: 705px;
-        margin-top: -212px;
-    }
-
-    .foot-banner {
-        background-color: rgba(194, 153, 116, 1);
+        line-height: 73px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        }
         
-    }
-    .banner-text {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 12px;
+        .banner_menu {
+        margin-left: 31px;
+        }
+        
+        .banner_menu-title {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+        width: 307px;
+        margin-top: 99px;
+        margin-bottom: 20px;
+        }
+        
+        .banner_design {
+        font-family: 'Crimson Text';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        }
+        
+        .banner_button {
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
         font-family: 'Open Sans';
-        font-weight: bold;
-    }
+        size: 16px;
+        color: #fff;
+        background-color: #000;
+        width: max-content;
+        padding: 9px 22px;
+        margin-top: 20px;
+        }
+        
+        .monstr_img {
+            position: absolute;
+            margin-left: 495px;
+            margin-top: -50px;
+        }
+        
+        .banner_foot {
+        text-align: center;
+        background-color: rgba(194, 153, 116, 1);
+        padding: 11px;
+        color: #fff;
+        }
     
 
     .products-title {
-        margin-top: 90px;
-        font-size: 38px;
-        margin-bottom: 30px;
+    margin-top: 90px;
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    color: #1E0606;
+    margin-bottom: 30px;
     }
 
     .design-text {
@@ -124,11 +136,7 @@ ul {
         margin-left: 50px;
     }
     /* Карточки продукции */
-    .category {
-        font-family: 'Montserrat';
-        color: #1E0606;
-        margin-bottom: 30px;
-    }
+    
     .products {
         font-size: 29px;
         text-align: center;
@@ -137,6 +145,7 @@ ul {
         width: 129px;
        }
        .products_cards {
+        min-width: 1042px;
         display: flex;
         justify-content: space-between;
         font-family: 'Montserrat';
@@ -147,14 +156,14 @@ ul {
         text-align: center;
         }
        
-       .cards_title_br-one {
+       .cards_title-one {
         background-image: url(/img/kids.png);
         background-repeat: no-repeat;
         padding: 120px 35px;
         width: 270px;
         color: rgb(255, 255, 255);
        }
-       .cards_title_br-two{
+       .cards_title-two{
         background-image: url(/img/holyday.png);
         background-repeat: no-repeat;
         padding: 120px 55px;
@@ -200,47 +209,65 @@ ul {
         line-height: 22px;
     }
     /* Женжина с текстом */
-    .delivery-name {
-        font-family: 'Montserrat';
-        margin-bottom: 6px;
-        padding-top: 50px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 46px;
-    }
-    .del_var {
-        font-size: 26px;
-        font-family: 'Crimson Text';
-        margin-bottom: 11px;
-    }
-    .del_disc {
-        margin-top: 15px;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        width: 1150px;
-    }
-    .del-btn {
-        margin-top: 26px;
-        background-color: rgb(0, 0, 0);
-        padding: 10px;
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        font-size: 16px;
-        font-family: 'Open Sans';
-        cursor: pointer;
-        margin-bottom: 242px;
-    }
     .girl_img {
-        float: left;
-        padding-right: 90px;
-        width: 550px;
-        height: 602px;
+        width: 460px;
+        height: 559px;
     }
+    
+    .deluvery_puncts-items a {
+        color: #000;
+    }
+
+    .deluvery_puncts-items a:hover {
+        padding: 5px 65px;
+        background:  rgba(112, 187, 220, 0.2);
+    }
+
+    .delivery {
+        display: flex;
+        gap: 61px;
+    }
+    
+    .delivery_puncts-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    }
+    
+    .deluvery_puncts-items {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    }
+    
+    .delivery_disc {
+    font-family: 'Open Sans'; 
+    margin-top: 20px;
+    width: 480px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    }
+    
+    .delivery_btn {
+    font-family: 'Open Sans';
+    margin-top: 35px;
+    width: max-content;
+    background-color: #000;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 9px 22px;
+    }
+    /* Брэнды */
     .brands {
+        margin-top: 90px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 120px;
